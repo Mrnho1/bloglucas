@@ -11,36 +11,36 @@ function Navbar() {
                 <Toolbar>
                     <Box display={'flex'} justifyContent={'space-between'} width={'100%'}>
                         <Box className='cursor'>
-                            <Typography variant="h5" color="inherit">
+                            <Typography variant="h5" color="inherit" className='btn-legal'>
                                 BlogPessoal
                             </Typography>
                         </Box>
 
                         <Box display="flex" justifyContent="start">
                             <Box mx={1} className='cursor'>
-                                <Typography variant="h6" color="inherit">
+                                <Typography variant="h6" color="inherit" className='btn-legal'>
 
                                     home
                                 </Typography>
                             </Box>
                             <Box mx={1} className='cursor'>
-                                <Typography variant="h6" color="inherit">
+                                <Typography variant="h6" color="inherit" className='btn-legal'>
                                     postagens
                                 </Typography>
                             </Box>
                             <Box mx={1} className='cursor'>
-                                <Typography variant="h6" color="inherit">
+                                <Typography variant="h6" color="inherit" className='btn-legal'>
                                     temas
                                 </Typography>
                             </Box>
                             <Box mx={1} className='cursor'>
-                                <Typography variant="h6" color="inherit">
+                                <Typography variant="h6" color="inherit" className='btn-legal'>
                                     cadastrar tema
                                 </Typography>
                             </Box>
                             <Link to='/login' className='text-decorator-none'>
                             <Box mx={1} className='cursor'>
-                                <Typography variant="h6" color="inherit">
+                                <Typography variant="h6" color="inherit" className='btn-legal'>
                                     logout
                                 </Typography>
                                 

@@ -2,6 +2,21 @@
     background-color: #912a7eaa !important;
 }
 
+
+.btn-legal{
+    padding: 0 10px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 4px 0; */
+}
+
+.btn-legal:hover{
+    color:crimson!important ;
+    border-bottom:2px solid crimson !important;
+    /* border-top:2px solid #d761c1aa !important ; */
+    transition: 5.5s;
+
+}
+
 .cursor{
     cursor: pointer;
     color: white;

@@ -1,6 +1,6 @@
 .box1{
     background-color: #ad1ca6 !important;
-    height: 90px;
+    height: 100%;
 }
 
 .box2{
@@ -11,6 +11,12 @@
 .rs{
     font-size: 40px !important;
     color: white;
+}
+
+.rs:hover{
+    box-shadow: 0 0 4px 0;
+    border-radius: 10px;
+
 }
 
 .textos{

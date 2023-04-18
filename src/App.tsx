@@ -6,23 +6,25 @@ import ResponsiveAppBar from './components/estaticos/responsivo/ResponsiveAppBar
 import Footer from './components/estaticos/footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './pages/Login/Login';
+import CadastroUsuario from './pages/cadastroUsuario/CadastroUsuario';
 
 function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <BrowserRouter>
-            <Navbar />
-            <div style={{minHeight:'100vh'}}>
-                <Routes>
-                    <Route path="/" element={<Login />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/home" element={<Home />} />
-                </Routes>
-            </div>
+            <BrowserRouter>
+                <Navbar />
+                <div style={{minHeight:'100vh'}}>
+                    <Routes>
+                        <Route path="/" element={<Login />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/home" element={<Home />} />
+                        <Route path="/cadastro" element={<CadastroUsuario />} />
+                    </Routes>
+                </div>
 
-            <Footer />
-        </BrowserRouter>
+                <Footer />
+            </BrowserRouter>
     );
 }
 
