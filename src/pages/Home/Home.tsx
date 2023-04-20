@@ -3,6 +3,7 @@ import './Home.css'
 import { Typography, Grid, Button } from '@material-ui/core';
 import './Home.css';
 import { Box } from '@mui/material';
+import TabPostagem from '../../components/postagens/tabPostagem/TabPostagem';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
                 justifyContent="center"
                 alignItems="center"
                 className='caixa'
+                
             >
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={15}>
@@ -59,7 +61,7 @@ function Home() {
                         height="80%"
                     />
                 </Grid>
-                <Grid xs={12} className='postagens'></Grid>
+                <Grid xs={12} className='postagens'><TabPostagem/></Grid>
             </Grid>
         </>
     );

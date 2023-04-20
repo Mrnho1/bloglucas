@@ -10,29 +10,39 @@ function Navbar() {
             <AppBar position="static" className='barra'>
                 <Toolbar>
                     <Box display={'flex'} justifyContent={'space-between'} width={'100%'}>
-                        <Box className='cursor'>
+                       
+                    <Link to='/home'>
+                         <Box className='cursor'>
+                            
                             <Typography variant="h5" color="inherit" className='btn-legal'>
                                 BlogPessoal
                             </Typography>
+                           
                         </Box>
-
+                        </Link>
                         <Box display="flex" justifyContent="start">
+                        <Link to='/home'>
                             <Box mx={1} className='cursor'>
                                 <Typography variant="h6" color="inherit" className='btn-legal'>
 
                                     home
                                 </Typography>
                             </Box>
+                            </Link>
+                            <Link to='/postagens'>
                             <Box mx={1} className='cursor'>
                                 <Typography variant="h6" color="inherit" className='btn-legal'>
                                     postagens
                                 </Typography>
                             </Box>
+                            </Link>
+                            <Link to='/temas'>
                             <Box mx={1} className='cursor'>
                                 <Typography variant="h6" color="inherit" className='btn-legal'>
                                     temas
                                 </Typography>
                             </Box>
+                            </Link>
                             <Box mx={1} className='cursor'>
                                 <Typography variant="h6" color="inherit" className='btn-legal'>
                                     cadastrar tema
