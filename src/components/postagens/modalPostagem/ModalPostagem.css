@@ -1,0 +1,17 @@
+.btnModal{
+    border-color: white !important;
+    background-color: white !important;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background-color: #fcfcfc;
+    width: 45vw;
+    border: 3px solid #912a7eaa;
+    box-shadow: 5px 3px 10px #912a7eaa;
+    border-radius: 1rem;
+  }
